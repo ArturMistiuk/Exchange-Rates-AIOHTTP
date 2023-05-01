@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "exchange-rates-aiohttp"
+version = "0.1.0"
+description = ""
+authors = ["Artur Mistiuk <mistiuk.artur@gmail.com>"]
+readme = "README.md"
+packages = [{include = "exchange_rates_aiohttp"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiohttp = "^3.8.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
